@@ -32,3 +32,10 @@ Then follow the steps above (## docker) to run a container.
 ```
 docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=passWord -p 3306:3306 mysql:latest
 ```
+
+## CRUD
+- C: Create -> INSERT
+- R: Read -> SELECT
+- U: Update -> UPDATE
+- D: Delete -> DELETE
+

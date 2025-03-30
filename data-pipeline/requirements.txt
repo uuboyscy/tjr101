@@ -1,5 +1,6 @@
-pandas
+pandas==2.2.3
 requests
 pandasql
 pymysql
 sqlalchemy
+cryptography
