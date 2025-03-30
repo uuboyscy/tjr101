@@ -1,7 +1,7 @@
 # tjr101
 
 # Docker
-[Docker Tutorial](https://docs.uuboyscy.dev/docs/category/docker-tutorial)
+- [Docker Tutorial](https://docs.uuboyscy.dev/docs/category/docker-tutorial)
 ## Docker Commands
 - Download a image
     - docker pull <image_name>:<tag>
@@ -24,6 +24,6 @@ docker build -f <dockerfile_name> -t <image>:<tag> .
 Then follow the steps above (## docker) to run a container.
 
 # Data Pipeline
-[What is ETL](https://docs.uuboyscy.dev/docs/Data%20Pipeline/What%20is%20ETL)
-[Pandas Tutorial](https://docs.uuboyscy.dev/docs/category/pandas-tutorial)
+- [What is ETL](https://docs.uuboyscy.dev/docs/Data%20Pipeline/What%20is%20ETL)
+- [Pandas Tutorial](https://docs.uuboyscy.dev/docs/category/pandas-tutorial)
 
