@@ -27,3 +27,8 @@ Then follow the steps above (## docker) to run a container.
 - [What is ETL](https://docs.uuboyscy.dev/docs/Data%20Pipeline/What%20is%20ETL)
 - [Pandas Tutorial](https://docs.uuboyscy.dev/docs/category/pandas-tutorial)
 
+## MySQL connection
+- Create a MySQL container
+```
+docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=passWord -p 3306:3306 mysql:latest
+```
