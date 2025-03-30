@@ -39,3 +39,5 @@ docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=passWord -p 3306:330
 - U: Update -> UPDATE
 - D: Delete -> DELETE
 
+# Project Management
+- [Poetry](https://docs.uuboyscy.dev/docs/Python/Project%20Management/Virtual%20Environment/Poetry)
