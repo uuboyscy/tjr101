@@ -26,6 +26,25 @@ Then follow the steps above (## docker) to run a container.
 # Data Pipeline
 - [What is ETL](https://docs.uuboyscy.dev/docs/Data%20Pipeline/What%20is%20ETL)
 - [Pandas Tutorial](https://docs.uuboyscy.dev/docs/category/pandas-tutorial)
+- Export JSONL using pandas
+    ```python
+    import pandas as pd
+
+    # Your data
+    data = [
+        {"ProductID": 1, "ProductName": "Laptop", "Category": "Electronics", "Price": 1200},
+        {"ProductID": 2, "ProductName": "Headphones", "Category": "Electronics", "Price": 150},
+        {"ProductID": 3, "ProductName": "Coffee Mug", "Category": "Kitchenware", "Price": 20},
+    ]
+
+    # Create a DataFrame
+    df = pd.DataFrame(data)
+
+    # Export to JSONL (JSON Lines format)
+    df.to_json('products.jsonl', orient='records', lines=True)
+
+    print("Exported to products.jsonl successfully!")
+    ```
 
 ## MySQL connection
 - Create a MySQL container
