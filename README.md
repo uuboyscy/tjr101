@@ -70,6 +70,7 @@ docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=passWord -p 3306:330
 # GCP
 - [Slide](https://uuboyscy.notion.site/GCP-6301fc45c4924b9f929d5aac5049e52c?pvs=4)
 - [Note 20250426](./gcp_20250326.md)
+- [artifact-registry.md](artifact-registry.md)
 
 # Other References
 - [Interview](https://github.com/uuboyscy/tjr101/tree/main/interview-question)
