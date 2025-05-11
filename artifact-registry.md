@@ -55,6 +55,11 @@
     ```
 
 - Command to build an image
-  ```shell
-  docker build -f flask.Dockerfile -t <region>-docker.pkg.dev/<project-id>/<artifact-registry-name>/<image-name>:<image-tag> .
-  ```
+    ```shell
+    docker build -f flask.Dockerfile -t <region>-docker.pkg.dev/<project-id>/<artifact-registry-name>/<image-name>:<image-tag> .
+    ```
+
+- Push Docker image
+    ```shell
+    docker push <region>-docker.pkg.dev/<project-id>/<artifact-registry-name>/<image-name>:<image-tag>
+    ```
