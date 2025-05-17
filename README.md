@@ -75,6 +75,7 @@ docker run -d --name mysql-container -e MYSQL_ROOT_PASSWORD=passWord -p 3306:330
 ## Note
 - [gcp_20250326.md](./gcp_20250326.md)
 - [gcp_20250507_20250511.md](gcp_20250507_20250511.md)
+- [gcp_2025_0517](gcp_20250517.md)
 
 # Other References
 - [Interview](https://github.com/uuboyscy/tjr101/tree/main/interview-question)
