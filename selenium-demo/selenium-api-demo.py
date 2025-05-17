@@ -34,7 +34,7 @@ chrome_options.add_argument("--allow-insecure-localhost")
 # chrome_options.add_argument("--headless")
 
 driver = webdriver.Remote(
-    command_executor="http://localhost:14444/wd/hub",
+    command_executor="https://standalone-chrome-46372.asia-east1.run.app/wd/hub",
     options=chrome_options,
 )
 
@@ -50,7 +50,7 @@ driver.find_element(by=By.CLASS_NAME, value="btn-big").click()
 time.sleep(10)
 
 cookie = driver.get_cookies()
-time.sleep(10)
+time.sleep(1000)
 
 driver.quit()
 
