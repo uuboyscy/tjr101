@@ -37,7 +37,6 @@ driver = webdriver.Remote(
     command_executor="http://localhost:14444/wd/hub",
     options=chrome_options,
 )
-# driver = Chrome()
 
 url = "https://www.ptt.cc/bbs/index.html"
 
